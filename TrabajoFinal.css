@@ -1,0 +1,32 @@
+body{
+    background-color: burlywood;
+    color:crimson;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    color: blueviolet;
+}
+
+.image{
+    width: 100px;
+    height: 100px;
+}
+
+.inicio{
+    height: 500px;
+    background-color: aqua;
+    margin: 5;
+}
+
+.deporte{
+    height: 500px;
+    background-color: blueviolet;
+    margin: 5;
+}
+
+.negocios{
+    height: 500px;
+    background-color: cornflowerblue;
+    margin: 5;
+}
