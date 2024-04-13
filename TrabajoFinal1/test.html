@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejemplo de HTML con Navbar y Sección Principal</title>
+<style>
+    /* Estilos básicos para el navbar */
+    nav {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    nav ul li {
+        display: inline;
+        margin-right: 10px;
+    }
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    /* Estilos básicos para la sección principal */
+    .container {
+        display: flex;
+        flex-direction: row;
+    }
+    .column {
+        flex: 1;
+        padding: 20px;
+    }
+    .column.left {
+        background-color: #f0f0f0;
+    }
+    .column.right {
+        background-color: #eaeaea;
+    }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Acerca de</a></li>
+        <li><a href="#">Servicios</a></li>
+        <li><a href="#">Contacto</a></li>
+    </ul>
+</nav>
+
+<!-- Sección principal -->
+<div class="container">
+    <div class="column left">
+        <h2>Columna Izquierda</h2>
+        <p>Contenido de la columna izquierda...</p>
+    </div>
+    <div class="column right">
+        <h2>Columna Derecha</h2>
+        <p>Contenido de la columna derecha...</p>
+    </div>
+</div>
+
+</body>
+</html>

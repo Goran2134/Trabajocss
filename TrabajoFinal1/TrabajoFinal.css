@@ -1,32 +1,67 @@
-body{
-    background-color: burlywood;
-    color:crimson;
-    margin: 0;
-    padding: 0;
-}
-.title{
-    color: blueviolet;
-}
-
-.image{
-    width: 100px;
-    height: 100px;
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.inicio{
-    height: 500px;
-    background-color: aqua;
-    margin: 5;
+img {
+  width: 500px;
+  height: 500px;
+}
+.title {
+  margin: 0;
 }
 
-.deporte{
-    height: 500px;
-    background-color: blueviolet;
-    margin: 5;
+/* Estilos para el navbar */
+nav {
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
 }
 
-.negocios{
-    height: 500px;
-    background-color: cornflowerblue;
-    margin: 5;
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+/* Estilos para las secciones */
+section {
+  padding: 20px;
+}
+
+/* Estilos para las tablas */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+/* Estilos específicos para cada sección */
+.inicio {
+  background-color: #f0f0f0;
+}
+
+.deporte {
+  background-color: #eaeaea;
+}
+
+.negocios {
+  background-color: #f0f0f0;
 }
